@@ -1,0 +1,250 @@
+// #work {
+//     width: 100%;
+//     height: 100vh;
+//     padding: 8rem $p;
+
+//     >h2 {
+//         font: 700 2.5rem $text2;
+//         width: fit-content;
+//         border-bottom: 1px solid $color6_1;
+//         padding: 0.5rem;
+//         margin: auto;
+//     }
+
+//     >section {
+//         margin-top: 4rem;
+//         width: 100%;
+//         height: 100%;
+//         background-color: $color5;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+
+//         >article {
+//             width: 70%;
+//             height: 25vmax;
+//         }
+
+//         .workItem {
+//             overflow-y: auto;
+//             height: 25vmax;
+//             width: 95%;
+//             margin: auto;
+//             background-color: $color4;
+//             display: flex;
+//             padding: 2rem;
+//             box-shadow: 0 0 20px 5px $color1;
+
+//             >img {
+//                 border-radius: 20px;
+//                 width: 40%;
+//                 object-fit: cover;
+//             }
+
+//             >aside {
+//                 width: 60%;
+//                 display: flex;
+//                 flex-direction: column;
+//                 justify-content: center;
+//                 align-items: center;
+
+//                 >p {
+//                     letter-spacing: 3px;
+//                     line-height: 180%;
+//                     margin: 2rem;
+//                 }
+
+//                 >a {
+//                     background-color: $color3;
+//                     padding: 0.7rem 2rem;
+//                     margin: 2rem;
+//                     color: $color4;
+//                     transition: all 0.5s;
+
+//                     &:hover {
+//                         background-color: $color3_1;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }]
+
+// Work.scss
+// Work.scss
+
+
+// Work.scss
+// Work.scss
+
+$primary-color: #3498db;
+$secondary-color: #ddd;
+$box-shadow-color: rgba(0, 0, 0, 0.1);
+
+
+#work {
+    width: 100%;
+    height: 100%;
+    padding: 8rem $p;
+
+    >h2 {
+        // color: $primary-color;
+        text-align: center;
+        font: 700 2.5rem $text2;
+        width: fit-content;
+        border-bottom: 1px solid $color6_1;
+        padding: 0.5rem;
+        margin: auto;
+
+    }
+
+    >section {
+        margin-top: 4rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+        >article {
+            .carousel-container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin: -8px; // Adjust to half of the margin value to center the components
+                padding: 16px; // Add padding to both sides
+            }
+
+            .column {
+                width: calc(33.33% - 32px); // Adjust as needed, considering margin
+                margin: 16px; // Adjust the margin value
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 16px; // Add padding to both sides
+            }
+
+            button {
+                background-color: $primary-color;
+                color: white;
+                padding: 8px 16px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                margin-top: 16px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                margin: auto;
+
+                &:hover {
+                    background-color: darken($primary-color, 10%);
+                }
+            }
+        }
+    }
+}
+
+// .card {
+//     width: 300px; // Set the width to the desired value
+//     height: 300px; // Set the height to the desired value
+//     transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+//     background-color: #fff;
+//     border-radius: 12px;
+//     box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+//     display: inline-block;
+//     margin-right: 16px;
+//     margin-bottom: 16px;
+//     border: 2px solid #ddd;
+//     padding: 8px;
+//     color: #56538d;
+
+
+//     &-image {
+//         width: 100%;
+//         height: 50%; // Adjust the height as needed
+//         object-fit: cover;
+//     }
+
+//     &-content {
+//         padding: 8px;
+//     }
+
+//     &-title {
+//         font-size: 1.2rem;
+//         margin-bottom: 8px;
+//     }
+
+//     &-text {
+//         font-size: 0.8rem;
+//         color: #555;
+//     }
+
+//     &-link {
+//         display: inline-block;
+//         margin-top: 2px;
+//         justify-content: center;
+//         color: $primary-color;
+//         text-decoration: none;
+//         font-weight: bold;
+
+//         &:hover {
+//             text-decoration: underline;
+//         }
+//     }
+// }
+.card {
+    width: 300px;
+    height: 300px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    // background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border: 1px solid $color1;
+    padding: 8px;
+    color: #56538d;
+
+    &-image {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    &-content {
+        padding: 8px;
+    }
+
+    &-title {
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+
+    &-text {
+        font-size: 0.8rem;
+        color: #555;
+    }
+
+    &-link {
+        display: inline-block;
+        margin-top: 2px;
+        justify-content: center;
+        color: $primary-color;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+            transition: all 0.2s ease-in-out;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0px 13px 25px -7px rgba(0, 0, 0, 0.5);
+        transform: scale(1.01); // Adjust the scale factor for the zoom effect
+    }
+}
