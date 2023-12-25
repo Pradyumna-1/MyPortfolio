@@ -64,8 +64,10 @@
 // export default Home
 import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 import Typewriter from "typewriter-effect";
-import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
+import { BsArrowUpRight, BsChevronDown, BsLink } from "react-icons/bs";
 import me from "../assets/logo.png";
 
 const Home = ({ ratio }) => {
@@ -133,11 +135,37 @@ const Home = ({ ratio }) => {
             </a>
           </div>
           <aside>
-            <article data-special>
-              <p>About </p>
-              
-              <span>official.6packprogrammer@gmail.com</span>
-            </article>
+            <a
+              href="https://github.com/Pradyumna-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <FaGithub size={32} />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/pradyumnakumarnaik/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              // style={{  color: '#0077B5' }}
+              className="linkedin-link"
+            >
+              <FaLinkedin size={32} />
+            </a>
+            <a
+              href="https://www.instagram.com/im_siddharth_20/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="instagram-link"
+            >
+              <FaInstagram size={32} />
+            </a>
+            {/* <article data-special>
+              <span></span>
+            </article> */}
           </aside>
         </div>
       </section>

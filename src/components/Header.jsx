@@ -67,15 +67,16 @@ const NavContent = ({ setMenuOpen }) => (
       <a onClick={() => setMenuOpen(false)} href="#home">
         Home
       </a>
+      <a onClick={() => setMenuOpen(false)} href="#about">
+        About
+      </a>
+      <a onClick={() => setMenuOpen(false)} href="#timeline">
+       Skills
+      </a>
       <a onClick={() => setMenuOpen(false)} href="#work">
         Work
       </a>
-      <a onClick={() => setMenuOpen(false)} href="#timeline">
-        Experience
-      </a>
-      <a onClick={() => setMenuOpen(false)} href="#services">
-        Services
-      </a>
+
       <a onClick={() => setMenuOpen(false)} href="#contact">
         Contact
       </a>

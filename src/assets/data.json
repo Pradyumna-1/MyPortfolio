@@ -1,11 +1,19 @@
 {
   "projects": [
     {
-      "date": "07/10/2022",
-      "title": "TECHY STAR",
+      "date": "15/10/2022",
+      "title": "CRYPTO TRACKER",
       "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://reactone-nine.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+      "url": "https://crypto-tracker-inky-two.vercel.app/",
+      "imgSrc": "https://images.unsplash.com/photo-1631897642056-97a7abff6818?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+
+    {
+      "date": "07/10/2022",
+      "title": "THE TRAVELLER",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "https://my-traveler-web.000webhostapp.com/",
+      "imgSrc": "https://i0.wp.com/stephnovators.com/wp-content/uploads/2023/04/savvas-kalimeris-hO3do8FKJkQ-unsplash.jpg?resize=1160%2C700&ssl=1"
     },
 
     {
@@ -15,35 +23,73 @@
       "url": "https://react-video-app-eight.vercel.app",
       "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
     },
-    {
-      "date": "15/10/2022",
-      "title": "XCrypto",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-crypto-app-pi.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
-    },
-
+ 
     {
       "date": "17/10/2022",
-      "title": "REACT CART",
+      "title": "MOVIX",
       "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-cart-eosin.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+      "url": "https://moviex-mocha.vercel.app/",
+      "imgSrc": "https://cdn.dribbble.com/userupload/4058178/file/original-32375ad0f4d0d27bbb5a236c95a90916.jpg?resize=1600x1200"
     },
     {
       "date": "20/10/2022",
-      "title": "PORTFOLIO",
+      "title": "WEATHER APP",
       "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+      "url": "https://weather-app-pradyumna-1.vercel.app/",
+      "imgSrc": "https://cdn.dribbble.com/userupload/4004842/file/original-51a2122f099b9fec7a9f5d7e8f19ccd7.jpg?resize=1024x768"
     },
     
     {
       "date": "11/10/2022",
-      "title": "VIDEO HUB",
+      "title": "COVID-19 API",
       "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-video-app-eight.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+      "url": "https://covid19api-w4oa.onrender.com/",
+      "imgSrc": "https://cdn.dribbble.com/userupload/2712873/file/original-fa177501d82449d6aae3cdd9f919d440.png?resize=1024x768"
+    },
+    {
+      "date": "11/10/2022",
+      "title": "CURRENCY CONVERTOR",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "https://currency-convertor-sandy.vercel.app/",
+      "imgSrc": "https://cdn.dribbble.com/users/452635/screenshots/2894615/media/d26e9ca19f770da38918e21396b1a5e7.png?resize=768x576&vertical=center"
+    },
+    {
+      "date": "11/10/2022",
+      "title": "PASSWORD GENERATOR",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "https://password-generator-eta-ruddy.vercel.app/",
+      "imgSrc": "https://cdn.dribbble.com/userupload/5766396/file/original-72d4db891caacf66e792ef712e089722.png?resize=1024x576"
+    },
+    {
+      "date": "11/10/2022",
+      "title": "TODO APP",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "https://todolist-xi-blush.vercel.app/",
+      "imgSrc": "https://cdn.dribbble.com/users/551602/screenshots/14153121/media/b88a82824f496847d76fc3f04b205b1f.png?resize=768x576&vertical=center"
+    },
+    {
+      "date": "11/10/2022",
+      "title": "TIC TAC TOE",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "https://pradyumna-1.github.io/Tic-Tac-Toe-/",
+      "imgSrc": "https://cdn.dribbble.com/users/297873/screenshots/6532744/tic-tac-toe_in_webassembly_for_go_web_4x.png?resize=768x576&vertical=center"
+    },
+
+    {
+      "date": "11/10/2022",
+      "title": "RESPONSIVE DRUMKIT",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "https://pradyumna-1.github.io/Drum-Kit-/",
+      "imgSrc": "https://cdn.dribbble.com/users/1282772/screenshots/2862886/media/09dd30eee7bd5d0b095490455920a43e.jpg"
+    },
+    {
+      "date": "11/10/2022",
+      "title": "MINI RESTURANT ",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "https://mini-resturant.onrender.com/",
+      "imgSrc": "https://cdn.dribbble.com/users/1012608/screenshots/12289147/media/748de4e153794df353a3df577aabeab9.png"
     }
+
   ]
 }
+

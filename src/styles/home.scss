@@ -62,8 +62,24 @@
 
                 aside {
                     display: flex;
-                    justify-content: space-between;
+              
                     width: 70%;
+                    >a {
+                            margin: 5px;
+                            display: flex;
+                    
+                    
+                        }
+                    
+                        >.linkedin-link {
+                            color: #0077B5;
+                          
+                        }
+                    
+                        >.instagram-link {
+                            color: #E1306C;
+                        
+                        }
                 }
 
                 article {
