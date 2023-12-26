@@ -4,7 +4,6 @@
     grid-template-columns: 1fr 1fr;
 
     >section {
-        background-color: $color1;
         width: 100%;
         height: 100%;
 
@@ -39,10 +38,10 @@
                 color: $color4;
                 font: 600 1rem $text1;
                 text-transform: uppercase;
-                margin: 3rem;
+                margin: 1rem;
 
                 &:hover {
-                    background-color: $color3_1;
+                    background-color: $color7;
                 }
             }
         }
@@ -51,7 +50,6 @@
     >aside {
         width: 100%;
         height: 100%;
-        background-color: $color5;
         display: grid;
         place-items: center;
 
@@ -59,8 +57,23 @@
             width: 70%;
             height: 70%;
             object-fit: contain;
-            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.322)) hue-rotate(150deg);
+            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.675)) hue-rotate(50deg);
+            ;
             animation: upupdowndown 0.7s infinite linear alternate;
+            margin: 20px 0; // Add margin from top and bottom
+        }
+    }
+
+    // Media query for small devices
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr; // Change to a single column layout for small devices
+
+        >section {
+            order: 2; // Reverse the order for small devices
+
+            >aside {
+                order: 1; // Reverse the order for small devices
+            }
         }
     }
 }

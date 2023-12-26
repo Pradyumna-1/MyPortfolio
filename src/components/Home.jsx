@@ -1,74 +1,10 @@
-// import React from 'react'
-// import { motion } from "framer-motion";
-// import Typewriter from "typewriter-effect";
-// import { BsArrowUpRight } from "react-icons/bs";
-
-// const Home = () => {
-//   const animations = {
-//     h1: {
-//       initial: {
-//         x: "-100%",
-//         opacity: 0,
-//       },
-//       whileInView: {
-//         x: 0,
-//         opacity: 1,
-//       },
-//     },
-//     button: {
-//       initial: {
-//         y: "-100%",
-//         opacity: 0,
-//       },
-//       whileInView: {
-//         y: 0,
-//         opacity: 1,
-//       },
-//     },
-//   };
-//   return (
-//     <div id="home">
-//       <section>
-//         <div>
-//           <motion.h1 {...animations.h1}>
-//             Hi,I am <br /> Pradyumna Kumar Naik
-//           </motion.h1>
-
-//           <Typewriter
-//             options={{
-//               strings: ["A Developer", "A QA Tester"],
-//               autoStart: true,
-//               loop: true,
-//               wrapperClassName: "typewriterpara",
-//             }}
-//           />
-//           <div>
-//             <a href="mailto:naik.kumarpradyumna@gmail.com">Hire Me </a>
-//             <a href="#work">
-//               Projects <BsArrowUpRight />
-//             </a>
-//           </div>
-
-//           <article>
-//             <p>
-//               +<span>100</span>
-//             </p>
-//             <span>Client World Wide</span>
-//           </article>
-//         </div>
-//       </section>
-//     </div>
-//   );
-// };
-
-// export default Home
 import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown, BsLink } from "react-icons/bs";
-import me from "../assets/logo.png";
+// import me from "../assets/logo.png";
 
 const Home = ({ ratio }) => {
   const clientCount = useRef(null);
@@ -170,7 +106,7 @@ const Home = ({ ratio }) => {
         </div>
       </section>
       <section>
-        <img src={me} alt="Abhishek" />
+        {/* <img src={me} alt="Pradyumna" />   */}
       </section>
       <BsChevronDown />
     </div>

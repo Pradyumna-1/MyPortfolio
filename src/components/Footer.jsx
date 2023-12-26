@@ -11,11 +11,11 @@ const Footer = () => {
     <footer>
       <div>
         <img
-          src={"https://avatars.githubusercontent.com/u/25058652"}
+          src={"https://avatars.githubusercontent.com/u/92319505?v=4"}
           alt="Founder"
         />
 
-        <h2>Abhishek Singh</h2>
+        <h2>Pradyumna Kumar Naik </h2>
         <p>Motivation is temporary, but discipline last forever.</p>
       </div>
 

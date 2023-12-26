@@ -156,17 +156,17 @@ nav {
       }
       }
   > a > button {
-    border: 1px solid $color6_1;
+    border: 1px solid $color3;
     border-radius: 2rem;
     padding: 0.5rem 2rem;
     background-color: $color1;
     cursor: pointer;
-    color: $color6;
+    color: $color3;
     letter-spacing: 1px;
     font-weight: 500;
     transition: all 0.3s;
     &:hover {
-      background-color: $color6;
+      background-color: $color3;
       color: $color4;
     }
   }

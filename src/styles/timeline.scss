@@ -131,7 +131,7 @@
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    border: 0.2px solid #404346;
+    border: 0.2px solid  $color9;
     border-radius: 18px;
     margin: 35px auto; /* Further reduced margin */
     box-sizing: border-box;
@@ -158,7 +158,7 @@
       }
 
       .skill-bar {
-        background-color: #e0e0e0;
+        background-color: $color8;
         height: 20px; /* Adjust the height as needed */
         border-radius: 4px;
 
@@ -166,7 +166,7 @@
           display: block;
           height: 100%;
           border-radius: 4px;
-          background-color: #3498db;
+          background-color: $color7;
           transition: width 0.5s ease;
           position: relative;
 
@@ -175,7 +175,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: #fff;
+            color: $color1;
             font-size: 14px;
           }
         }

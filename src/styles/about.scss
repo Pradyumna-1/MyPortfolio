@@ -34,8 +34,9 @@
 //         }
 //     }
 // }
+// Styles.scss
 #about {
-    text-align: center;
+  text-align: center;
     padding: 20px;
     height: 100%;
     width: 100%;
@@ -57,58 +58,62 @@
     .about__me {
       margin-top: 2rem;
       display: flex;
-      margin-right: 5px;
-      flex-direction: row-reverse;
-      align-items: center;
+    flex-direction: column;
+      align-items: flex-start; // Align items to the left
       justify-content: center;
-  
+    
       img {
         width: 100%;
         max-width: 300px;
         padding: 1rem;
-        margin: auto;
+      margin-left: -280px; // Adjusted margin-left
         height: auto;
         border-radius: 2rem;
       }
-  
+      
       p {
         max-width: 600px;
-        text-align: justify;
-        margin: 20px auto; /* Added margin for spacing */
+      text-align: justify;
+        margin: -320px 10px 20px;
+          /* Adjusted margin-left to 10px */
         width: 100%;
         height: auto;
-      }
+      padding: 10px;
     }
-  
+
     .btn {
-      display: inline-block;
-      padding: 10px 20px;
+      display: block;
+        padding: 10px;
       background-color: #007bff;
-      color: #fff;
+      color: $color1;
       text-decoration: none;
       border-radius: 5px;
       transition: background-color 0.3s;
-      margin-top: 10px;
-      margin-right: 5px;
-  
+      margin-left: 50px;
       &:hover {
         background-color: #0056b3;
       }
     }
+        }
+    
+        @media screen and (max-width: 600px) {
+          .about__me {
+            flex-direction: column;
+            align-items: center;
+        
+            img {
+              margin-left: 0; // Reset margin-left
+            }
+        
+            p {
+              margin: 10px 10px 20px; // Adjusted margin
+            }
+        
+            .btn {
+              margin-left: 0; // Reset margin-left
+            }
+          }
+        }
+        
   
-    @media screen and (max-width: 768px) {
-      /* Adjusted styles for smaller screens */
-      .about__me {
-        flex-direction: column;
-      }
-  
-      .about__me img {
-        max-width: 100%;
-      }
-  
-      .btn {
-        margin-top: 10px;
-      }
-    }
-  }
-  
+}

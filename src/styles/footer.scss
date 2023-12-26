@@ -20,44 +20,46 @@ footer {
             height: 100px;
             border-radius: 50%;
             object-fit: contain;
-        }
+            margin: auto;
 
-        >h2 {
-            margin: 1rem;
-        }
+            >h2 {
+                margin: 1rem;
+            }
 
-        >p {
-            font: 400 1.2rem $text2;
-        }
-    }
-
-    >aside>article {
-        margin-top: 1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        svg {
-            font-size: 2rem;
-            color: $color4;
-
-            &:hover {
-                color: $color3;
+            >p {
+                font: 400 1.2rem $text2;
             }
         }
-    }
 
-    >a {
-        width: 50px;
-        height: 50px;
-        background-color: $color4;
-        border-radius: 50%;
-        display: grid;
-        place-items: center;
+        >aside>article {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-        svg {
-            font-size: 2rem;
-            color: $color3;
+            svg {
+                font-size: 2rem;
+                color: $color4;
+
+                &:hover {
+                    color: $color3;
+                }
+            }
+        }
+
+        >a {
+            // width: 50px;
+            // height: 50px;
+            // background-color: $color4;
+            // border-radius: 50%;
+            // display: grid;
+            // place-items: center;
+            // margin:20px auto;
+
+            svg {
+                font-size: 2rem;
+                color: $color3;
+            }
         }
     }
 }
