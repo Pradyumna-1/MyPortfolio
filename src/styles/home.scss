@@ -34,7 +34,7 @@
 
                     >a {
                         &:first-of-type {
-                            background-color: $color4;
+                            // background-color: $color4;
                             color: $color3;
                             padding: 1rem 2.5rem;
                             transition: all 0.3s;
@@ -67,7 +67,7 @@
                     >a {
                             margin: 5px;
                             display: flex;
-                    
+
                     
                         }
                     
@@ -137,6 +137,7 @@
                 width: 40vmax;
                 object-fit: contain;
                 height: 40vmax;
+                clip-path: circle(50% at 50% 50%);
             }
         }
     }

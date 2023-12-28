@@ -23,10 +23,13 @@ export const HeaderPhone = ({ menuOpen, setMenuOpen }) => {
     </div>
   );
 };
+// ... (other imports)
 
 const NavContent = ({ setMenuOpen }) => (
   <>
-    <h2>Pradyumna.</h2>
+    <h2>
+      <a href="#home">{"<Sid/>"}</a>
+    </h2>
     <div>
       <a onClick={() => setMenuOpen(false)} href="#home">
         Home
@@ -35,7 +38,7 @@ const NavContent = ({ setMenuOpen }) => (
         About
       </a>
       <a onClick={() => setMenuOpen(false)} href="#timeline">
-       Skills
+        Skills
       </a>
       <a onClick={() => setMenuOpen(false)} href="#work">
         Work
@@ -45,7 +48,7 @@ const NavContent = ({ setMenuOpen }) => (
         Contact
       </a>
     </div>
-    <a href="mailto:official.6packprogrammer@gmail.com">
+    <a href="mailto:naik.kumarpradyumna@gmail.com">
       <button>Email</button>
     </a>
   </>

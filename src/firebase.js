@@ -6,8 +6,9 @@ const firebaseConfig = {
   authDomain: "react-portfolio-b2e76.firebaseapp.com",
   projectId: "react-portfolio-b2e76",
   storageBucket: "react-portfolio-b2e76.appspot.com",
-  messagingSenderId: "5633462733353",
-  appId: "1:563346275653:web:skfkfkslkfjs3b22340e21122c"
+  messagingSenderId: "563346275653",
+  appId: "1:563346275653:web:e25e4a593b22340e21122c"
+
 };
 
 // Initialize Firebase

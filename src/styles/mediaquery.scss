@@ -44,21 +44,7 @@
         }
     }
 
-    #services {
-        padding: $p_md;
 
-        >section {
-            height: 90%;
-        }
-    }
-
-    #testimonial {
-        padding: $p_md;
-
-        >section {
-            width: 100%;
-        }
-    }
 
     #contact>section>form {
 
@@ -71,6 +57,7 @@
 
     footer {
         padding-left: $p_md;
+
     }
 }
 
@@ -103,10 +90,6 @@
         padding: 8rem $p_base;
     }
 
-    #services {
-        padding: $p_base_inverse;
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 900px) {
@@ -155,30 +138,9 @@
         }
     }
 
-    #services {
-        padding: $p_sm_inverse;
-        height: 90vh;
-    }
 
-    #testimonial {
-        padding: $p_zero;
 
-        >h2 {
-            padding: 3rem;
-            margin-bottom: 0%;
-        }
 
-        >section {
-            padding: 3rem;
-            height: 45rem;
-            justify-content: space-evenly;
-
-            >article {
-                width: 40%;
-                height: 50%;
-            }
-        }
-    }
 
     #contact>section>form {
         >h2 {
@@ -194,13 +156,14 @@
     footer {
         padding-left: $p_zero;
         grid-template-columns: 1fr;
+        
 
         >div {
             width: 100%;
             border: none;
 
             p {
-                width: 50%;
+                // width: 50%;
                 margin: 2rem auto;
             }
         }
@@ -297,27 +260,28 @@
             }
 
             .workItem {
-                height: 30vmax;
-                box-shadow: 0 0 5px $color1;
+                height: 15rem;
+                    // box-shadow: 0 0 5px $color1;
 
                 >aside {
                     padding: 1rem;
 
                     >h3 {
-                        margin: 1rem;
+                        margin: 0.5rem;
                     }
 
                     >p {
                         letter-spacing: 0;
                         line-height: unset;
-                        margin: 0%;
+                        margin: auto;
                         font-size: 0.75rem;
+                        text-align: left;
                     }
 
                     >a {
-                        padding: 0.4rem 0.7rem;
+                        padding: 0.2rem 0.2rem;
                         font-size: 0.7rem;
-                        margin: 1rem;
+                        margin: 0.5rem;
                     }
                 }
             }

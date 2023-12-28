@@ -1,27 +1,13 @@
 import React, { useRef } from "react";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import Typewriter from "typewriter-effect";
-import { BsArrowUpRight, BsChevronDown, BsLink } from "react-icons/bs";
-// import me from "../assets/logo.png";
+import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
+import me from "../assets/logo2.jpg";
 
-const Home = ({ ratio }) => {
-  const clientCount = useRef(null);
-  const projectCount = useRef(null);
+const Home = () => {
 
-  const animationClientsCount = () => {
-    animate(0, 100, {
-      duration: 1,
-      onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
-    });
-  };
-  const animationProjectsCount = () => {
-    animate(0, 500, {
-      duration: 1,
-      onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
-    });
-  };
 
   const animations = {
     h1: {
@@ -65,7 +51,7 @@ const Home = ({ ratio }) => {
           />
 
           <div>
-            <a href="mailto:official.6packprogrammer@gmail.com">Hire Me</a>
+            <a href="mailto:naik.kumarpradyumna@gmail.com">Hire Me</a>
             <a href="#work">
               Projects <BsArrowUpRight />
             </a>
@@ -106,7 +92,7 @@ const Home = ({ ratio }) => {
         </div>
       </section>
       <section>
-        {/* <img src={me} alt="Pradyumna" />   */}
+        <img src={me} alt="Pradyumna" />
       </section>
       <BsChevronDown />
     </div>

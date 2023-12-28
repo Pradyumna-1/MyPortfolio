@@ -16,13 +16,6 @@
       "imgSrc": "https://i0.wp.com/stephnovators.com/wp-content/uploads/2023/04/savvas-kalimeris-hO3do8FKJkQ-unsplash.jpg?resize=1160%2C700&ssl=1"
     },
 
-    {
-      "date": "11/10/2022",
-      "title": "VIDEO HUB",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-video-app-eight.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
-    },
  
     {
       "date": "17/10/2022",
@@ -46,13 +39,7 @@
       "url": "https://covid19api-w4oa.onrender.com/",
       "imgSrc": "https://cdn.dribbble.com/userupload/2712873/file/original-fa177501d82449d6aae3cdd9f919d440.png?resize=1024x768"
     },
-    {
-      "date": "11/10/2022",
-      "title": "CURRENCY CONVERTOR",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://currency-convertor-sandy.vercel.app/",
-      "imgSrc": "https://cdn.dribbble.com/users/452635/screenshots/2894615/media/d26e9ca19f770da38918e21396b1a5e7.png?resize=768x576&vertical=center"
-    },
+
     {
       "date": "11/10/2022",
       "title": "PASSWORD GENERATOR",
@@ -73,22 +60,8 @@
       "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
       "url": "https://pradyumna-1.github.io/Tic-Tac-Toe-/",
       "imgSrc": "https://cdn.dribbble.com/users/297873/screenshots/6532744/tic-tac-toe_in_webassembly_for_go_web_4x.png?resize=768x576&vertical=center"
-    },
-
-    {
-      "date": "11/10/2022",
-      "title": "RESPONSIVE DRUMKIT",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://pradyumna-1.github.io/Drum-Kit-/",
-      "imgSrc": "https://cdn.dribbble.com/users/1282772/screenshots/2862886/media/09dd30eee7bd5d0b095490455920a43e.jpg"
-    },
-    {
-      "date": "11/10/2022",
-      "title": "MINI RESTURANT ",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://mini-resturant.onrender.com/",
-      "imgSrc": "https://cdn.dribbble.com/users/1012608/screenshots/12289147/media/748de4e153794df353a3df577aabeab9.png"
     }
+ 
 
   ]
 }
