@@ -94,7 +94,7 @@ const Home = () => {
       <section>
         <img src={me} alt="Pradyumna" />
       </section>
-      <BsChevronDown />
+      {/* <BsChevronDown /> */}
     </div>
   );
 };
