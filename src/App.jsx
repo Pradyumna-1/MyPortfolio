@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header, { HeaderPhone } from "./components/Header";
 import Home from "./components/Home";
 import Work from "./components/Work";
-import Timeline from "./components/Timeline";
+import Skills from "./components/Skills";
 
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -28,7 +28,7 @@ function App() {
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
       <About />
-      <Timeline />
+      <Skills/>
       <Work />
       <Contact />
       <Footer />

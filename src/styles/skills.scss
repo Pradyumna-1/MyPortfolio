@@ -1,0 +1,151 @@
+// .skill-section {
+//   background-color: #f4f4f4;
+//   padding: 20px;
+//   text-align: center;
+
+//   .section-title {
+  //       font-size: 24px;
+  //     font-weight: bold;
+  //     margin-bottom: 20px;
+  //     }
+
+//     .skill-list {
+//       display: flex;
+//       justify-content: space-between;
+//       flex-wrap: wrap;
+
+//     .skill-category {
+  //         flex: 1;
+  //         margin-right: 10px;
+  //         margin-bottom: 20px;
+  //         .category-title {
+  //           font-size: 20px;
+  //         font-weight: bold;
+  //         margin-bottom: 10px;
+  //       }
+  //             .skills {
+  //               list-style: none;
+  //               padding: 0;
+
+  //         li {
+  //             font-size: 18px;
+  //             margin-bottom: 5px;
+  //           }
+  //             }
+  //         }
+  //   }
+  // }
+
+  // SkillSection.scss
+  .skill-section {
+    padding: 2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .skill-category {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 2rem;
+  }
+  
+  .category-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skill-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    // Add color styles to make icons colorful
+    &.html-icon {
+      color: #E44D26; // HTML color
+    }
+    &.css-icon {
+      color: #264DE4; // CSS color
+    }
+    &.javascript-icon {
+      color: #F0DB4F; // JavaScript color
+    }
+    &.nodejs-icon {
+      color: #68A063; // NodeJS color
+    }
+    &.react-icon {
+      color: #61DAFB; // React color
+    }
+    &.bootstrap-icon {
+      color: #563D7C; // Bootstrap color
+    }
+    &.tailwind-icon {
+      color: #38B2AC; // Tailwind color
+    }
+    &.express-icon {
+      color: #000000; // ExpressJS color
+    }
+    &.mongodb-icon {
+      color: #4DB33D; // MongoDB color
+    }
+    &.github-icon {
+      color: #181717; // GitHub color
+    }
+    &.firebase-icon {
+      color: #FFCA28; // Firebase color
+    }
+    &.photoshop-icon {
+      color: #31A8FF; // Photoshop color
+    }
+    &.java-icon {
+      color: #007396; // Java color
+    }
+    &.linux-icon {
+      color: #000000; // Linux color
+    }
+    &.php-icon{
+      color: #777BB3; // PHP color
+    }
+  }
+  
+  // Media queries for responsiveness
+  @media only screen and (max-width: 768px) {
+    .skill-category {
+      width: 45%;
+    }
+    
+    .skills {
+      flex-direction: row;
+      justify-content: center; // Center icons horizontally
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .skill-category {
+      width: 100%;
+    }
+    
+    .skills {
+      flex-direction: row;
+      justify-content: center; // Center icons horizontally
+      gap: 0.5rem;
+    }
+  }
+  

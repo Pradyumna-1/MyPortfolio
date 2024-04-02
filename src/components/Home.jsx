@@ -1,10 +1,11 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 import Typewriter from "typewriter-effect";
-import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
+import { BsArrowUpRight, BsChevronDown, BsTwitch, BsTwitterX } from "react-icons/bs";
 import me from "../assets/logo2.jpg";
+import { SiTwitter } from "react-icons/si";
 
 const Home = () => {
 
@@ -42,7 +43,7 @@ const Home = () => {
 
           <Typewriter
             options={{
-              strings: ["A Developer", "A QA Tester"],
+              strings: ["A Full Stack Developer", "A MERN Stack Developer"],
               autoStart: true,
               loop: true,
               cursor: "",
@@ -77,13 +78,13 @@ const Home = () => {
               <FaLinkedin size={32} />
             </a>
             <a
-              href="https://www.instagram.com/im_siddharth_20/"
+              href="https://twitter.com/Pradyumna_19"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Instagram"
-              className="instagram-link"
+              aria-label="Twitter"
+              className="twitter-link"
             >
-              <FaInstagram size={32} />
+              <BsTwitterX size={32} />
             </a>
             {/* <article data-special>
               <span></span>
