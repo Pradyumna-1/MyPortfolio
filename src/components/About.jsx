@@ -12,7 +12,7 @@ const About = () => {
         <p>
           Hello! I'm Pradyumna Kumar Naik, A Frontend Developer and QA Tester
           skilled in Selenium and PHP, holding a recent Computer Science and
-          Engineering degree from GCEK, Bhawanipatna. Proven ability to create
+          Engineering degree from GCEK, Bhawanipatna.and currently pursuing Java Full Stack Course in JSpider, Hyderabad. Proven ability to create
           captivating user interfaces and ensure robust software quality. A
           fresh graduate with a passion for innovation, seeking a challenging
           role to apply technical acumen, contribute to cutting-edge projects,
