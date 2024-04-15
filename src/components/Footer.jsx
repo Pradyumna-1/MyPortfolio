@@ -44,18 +44,20 @@
 // export default Footer;
 
 // Footer.js
-
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
-// import './Footer.scss'; // Import your SCSS file for styling
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
+  // Get the current year
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-text">
           <h2>Pradyumna Kumar Naik</h2>
-          <p>&copy; 2023. All rights reserved.</p>
+          {/* Insert the current year dynamically */}
+          <p>&copy; {currentYear}. All rights reserved.</p>
           <div className="social-icons">
             <a
               href="https://www.facebook.com/profile.php?id=100035573633791"
