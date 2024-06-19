@@ -1,4 +1,3 @@
-
 import React from "react";
 import myImage from "../assets/about.jpg";
 import Resume from "../assets/Resume.pdf";
@@ -10,15 +9,18 @@ const About = () => {
       <div className="about__me">
         <img src={myImage} alt="Pradyumna Kumar Naik" />
         <p>
-          Hello! I'm Pradyumna Kumar Naik, A Frontend Developer and QA Tester
-          skilled in Selenium and PHP, holding a recent Computer Science and
-          Engineering degree from GCEK, Bhawanipatna.and currently pursuing Java Full Stack Course in JSpider, Hyderabad. Proven ability to create
-          captivating user interfaces and ensure robust software quality. A
-          fresh graduate with a passion for innovation, seeking a challenging
-          role to apply technical acumen, contribute to cutting-edge projects,
-          and drive excellence in a collaborative work setting. Eager to bring a
-          blend of creativity and testing expertise to a dynamic team. Open to
-          exciting opportunities in frontend development and quality assurance.
+          <span>
+            {" "}
+            Hello I'm Pradyumna,a B.Tech graduate in Computer Science and
+            Engineering at GCEK, Bhawanipatna, with hands-on experience in
+            Frontend Development. Currently, I'm enhancing my skills through a
+            Java Full Stack development course at JSpider, Hyderabad. I focus on creating engaging user interfaces and ensuring top-notch software
+            quality. I'm looking for a challenging role where I can apply my
+            technical knowledge and passion for innovation to contribute to
+            exciting projects and work collaboratively with a dynamic team. I'm
+            especially interested in opportunities in frontend development and
+            quality assurance.
+          </span>
         </p>
         <a href={Resume} download className="btn ">
           Download CV
@@ -29,4 +31,3 @@ const About = () => {
 };
 
 export default About;
-
