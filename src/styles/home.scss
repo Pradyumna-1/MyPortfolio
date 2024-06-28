@@ -127,7 +127,7 @@
                 content: "";
                 width: 40vmax;
                 height: 40vmax;
-                background-color: $color3;
+                // background-color: $color3;
                 position: absolute;
                 z-index: -1;
                 border-radius: 50%;
@@ -136,6 +136,7 @@
             >img {
                 width: 40vmax;
                 object-fit: contain;
+                animation: upupdowndown 0.7s infinite linear alternate;
                 height: 40vmax;
                 clip-path: circle(50% at 50% 50%);
             }
