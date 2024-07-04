@@ -45,7 +45,7 @@
 
 // Footer.js
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   // Get the current year
@@ -60,11 +60,11 @@ const Footer = () => {
           <p>&copy; {currentYear}. All rights reserved.</p>
           <div className="social-icons">
             <a
-              href="https://www.facebook.com/profile.php?id=100035573633791"
+              href="https://www.linkedin.com/in/pradyumnakumarnaik/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook />
+              <FaLinkedin />
             </a>
             <a
               href="https://www.twitter.com"
@@ -74,11 +74,11 @@ const Footer = () => {
               <FaTwitter />
             </a>
             <a
-              href="https://www.instagram.com/im_siddharth_20/"
+              href="https://github.com/Pradyumna-1"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram />
+              <FaGithub />
             </a>
             {/* Add more social media icons and links as needed */}
           </div>
