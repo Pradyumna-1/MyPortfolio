@@ -67,7 +67,7 @@ const Footer = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://www.twitter.com"
+              href="https://twitter.com/Pradyumna_19"
               target="_blank"
               rel="noopener noreferrer"
             >
