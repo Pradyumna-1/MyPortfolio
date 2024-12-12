@@ -1,14 +1,28 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 import Typewriter from "typewriter-effect";
-import { BsArrowUpRight, BsChevronDown, BsTwitch, BsTwitterX } from "react-icons/bs";
+import {
+  BsArrowUpRight,
+  BsChevronDown,
+  BsTwitch,
+  BsTwitterX,
+} from "react-icons/bs";
 import me from "../assets/logo2.jpg";
-import { SiTwitter } from "react-icons/si";
+// import { SiTwitter } from "react-icons/si";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
-
+  useEffect(() => {
+    AOS.init({
+      offset: 120,
+      duration: 1200,
+      easing: "ease-in-out",
+      once: true,
+    });
+  }, []);
 
   const animations = {
     h1: {
@@ -33,7 +47,7 @@ const Home = () => {
     },
   };
   return (
-    <div id="home">
+    <div id="home" data-aos="zoom-out">
       <section>
         <div>
           <motion.h1 {...animations.h1}>

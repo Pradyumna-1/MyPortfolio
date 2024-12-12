@@ -1,0 +1,3 @@
+Hello! I'm Pradyumna Kumar Naik, a passionate Full Stack Developer based in Hyderabad, India. I hold a B.Tech in Computer Science and Engineering from GCEK, Bhawanipatna, Odisha, and I specialize in creating engaging, user-friendly interfaces and building robust backend systems. I am proficient in technologies like React.js, Java, MySQL and I am constantly exploring new tools to improve software quality and efficiency.I am deeply passionate about writing clean, scalable code and solving real-world problems through innovative solutions. My goal is to contribute to challenging projects, collaborate with dynamic teams, and continue growing as a developer.
+
+Feel free to explore my portfolio, and let's connect if you'd like to work together!

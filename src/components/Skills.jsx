@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -23,10 +23,21 @@ import {
   SiPhp,
 } from "react-icons/si";
 // import "../styles/SkillSection.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Skills = () => {
+
+  useEffect(() => {
+    AOS.init({
+      offset: 120,
+      duration: 1000,
+      easing:"ease",
+      once: true,
+    });
+  }, []);
   return (
-    <div id="skills">
+    <div id="skills" data-aos="zoom-in">
       <section className="skill-section">
         <h2 className="section-title">MY SKILLS</h2>
         <div className="container">
