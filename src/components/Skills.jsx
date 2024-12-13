@@ -21,18 +21,18 @@ import {
   SiLinux,
   SiGit,
   SiPhp,
+
 } from "react-icons/si";
 // import "../styles/SkillSection.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Skills = () => {
-
   useEffect(() => {
     AOS.init({
       offset: 120,
       duration: 1000,
-      easing:"ease",
+      easing: "ease",
       once: true,
     });
   }, []);
@@ -61,6 +61,13 @@ const Skills = () => {
                 <li></li>
                 <li>
                   <FaReact className="skill-icon react-icon" title="React" />
+                </li>
+
+                <li>
+                  <SiTailwindcss
+                    className="skill-icon tailwind-icon"
+                    title="Tailwindcss"
+                  />
                 </li>
               </ul>
             </div>

@@ -54,7 +54,6 @@ const Home = () => {
             Hi, I Am <br />
             Pradyumna Kumar Naik
           </motion.h1>
-
           <Typewriter
             options={{
               strings: [
