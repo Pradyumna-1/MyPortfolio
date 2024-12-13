@@ -11,8 +11,9 @@ const About = () => {
       offset: 120,
       duration: 600,
       easing: "ease-in-out",
-      once: true,
+      once: false,
     });
+    AOS.refresh();
   }, []);
 
   return (
@@ -25,18 +26,19 @@ const About = () => {
           data-aos="fade-up-right"
         />
         <p data-aos="fade-left">
-          Hello I'm Pradyumna, a B.Tech graduate in Computer Science and
-          Engineering at GCEK, Bhawanipatna, with hands-on experience in
-          Frontend Development. Currently, I'm enhancing my skills through a
-          Java Full Stack development course at JSpider, Hyderabad. I focus on
-          creating engaging user interfaces and ensuring top-notch software
-          quality. I'm looking for a challenging role where I can apply my
-          technical knowledge and passion for innovation to contribute to
-          exciting projects and work collaboratively with a dynamic team. I'm
-          especially interested in opportunities in frontend development and
-          quality assurance.
+          Hi, I'm Pradyumna, a B.Tech graduate in Computer Science and
+          Engineering from GCEK, Bhawanipatna. As a Full Stack Developer, I've
+          gained hands-on experience building both the frontend and backend of
+          web applications. I enjoy creating smooth, user-friendly interfaces
+          while also working on the backend to ensure everything runs
+          efficiently. My focus is on writing clean, maintainable code and
+          making sure the software is of the highest quality. I'm passionate
+          about solving problems, collaborating with talented teams, and
+          contributing to projects that make a real impact. I'm looking for
+          opportunities where I can bring my skills in development and quality
+          assurance to the table.
         </p>
-        <a href={Resume} download className="btn ">
+        <a href={Resume} download className="btn" data-aos="fade-up">
           Download CV
         </a>
       </div>
