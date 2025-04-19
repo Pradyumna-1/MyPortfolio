@@ -29,6 +29,7 @@
     "react-spring": "^9.7.3",
     "sass": "^1.69.5",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.17",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {

@@ -9,6 +9,7 @@ import About from "./components/About";
 import { Toaster } from "react-hot-toast";
 import { Route, Routes, useLocation, Navigate } from "react-router-dom";
 import Loader from "./components/Loader/Loader";
+import Projects from "./components/ProjectDetails";
 
 const LazyHome = React.lazy(() => import("./components/Home"));
 const LazyAbout = React.lazy(() => import("./components/About"));
@@ -22,6 +23,8 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [ratio, setRatio] = useState(window.innerWidth / window.innerHeight);
 
+
+  
   useEffect(() => {
     const resizeRatio = () => {
       setRatio(window.innerWidth / window.innerHeight);
@@ -37,7 +40,8 @@ function App() {
       window.removeEventListener("resize", resizeRatio);
     };
   }, [ratio]);
-
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
+  console.log(openModal)
   return (
     <>
       {loading ? (
@@ -49,7 +53,8 @@ function App() {
           <Suspense fallback={<Loader />}>
             <Home />
             <About />
-            <Work />
+            {/* <Work /> */}
+            <Projects  openModal={openModal} setOpenModal={setOpenModal} />
             <Skills />
             <Contact />
             <Footer />
