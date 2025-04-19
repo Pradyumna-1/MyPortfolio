@@ -20,24 +20,25 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
-          <Divider />
-          {toggle === 'full stack' ?
-            <ToggleButton active value="full stack" onClick={() => setToggle('business website')}>Frontend Project</ToggleButton>
-            :
-            <ToggleButton value="full stack" onClick={() => setToggle('business website')}>Frontend Project</ToggleButton>
-          }
-          <Divider />
+       
           {toggle === 'frontend project' ?
-            <ToggleButton active value="frontend project" onClick={() => setToggle('web app')}>Backend Project</ToggleButton>
+            <ToggleButton active value="frontend project" onClick={() => setToggle('frontend project')}>Frontend Project</ToggleButton>
             :
-            <ToggleButton value="frontend project" onClick={() => setToggle('web app')}>Backend Project</ToggleButton>
+            <ToggleButton value="frontend project" onClick={() => setToggle('frontend project')}>Frontend Project</ToggleButton>
           }
           <Divider />
           {toggle === 'backend project' ?
-            <ToggleButton active value="backend project" onClick={() => setToggle('android app')}>Full Stack Project</ToggleButton>
+            <ToggleButton active value="backend project" onClick={() => setToggle('backend project')}>Backend Project</ToggleButton>
             :
-            <ToggleButton value="backend project" onClick={() => setToggle('android app')}>Full Stack Project</ToggleButton>
+            <ToggleButton value="backend project" onClick={() => setToggle('backend project')}>Backend Project</ToggleButton>
           }
+             <Divider />
+          {toggle === 'full stack project' ?
+            <ToggleButton active value="full stack project" onClick={() => setToggle('full stack project')}>Full Stack Project</ToggleButton>
+            :
+            <ToggleButton value="full stack project" onClick={() => setToggle('full stack project')}>Full Stack Project</ToggleButton>
+          }
+          <Divider />
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects

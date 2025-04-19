@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <div id="about" data-aos="fade-up">
-      <h2>ABOUT ME</h2>
+      <h2>About Me</h2>
       <div className="about__me">
         <img
           src={myImage}

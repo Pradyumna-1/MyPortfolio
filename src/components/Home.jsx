@@ -69,7 +69,7 @@ const Home = () => {
 
           <div>
             <a href="mailto:naik.kumarpradyumna@gmail.com">Hire Me</a>
-            <a href="#work">
+            <a href="#projects">
               Projects <BsArrowUpRight />
             </a>
           </div>
