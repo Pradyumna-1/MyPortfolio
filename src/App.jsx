@@ -11,6 +11,7 @@ import { Route, Routes, useLocation, Navigate } from "react-router-dom";
 import Loader from "./components/Loader/Loader";
 import Projects from "./components/ProjectDetails";
 
+
 const LazyHome = React.lazy(() => import("./components/Home"));
 const LazyAbout = React.lazy(() => import("./components/About"));
 const LazySkills = React.lazy(() => import("./components/Skills"));
@@ -55,6 +56,7 @@ function App() {
             <About />
             {/* <Work /> */}
             <Projects  openModal={openModal} setOpenModal={setOpenModal} />
+            {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
             <Skills />
             <Contact />
             <Footer />

@@ -17,7 +17,7 @@ const Work = () => {
   return (
     <>
       <div id="work">
-        <h2>WORK</h2>
+        <h2>Projects</h2>
         <section>
           <article>
             <Carousel

@@ -57,8 +57,8 @@ const Home = () => {
           <Typewriter
             options={{
               strings: [
-                '<span style="color: #FF651C;">A Full Stack Developer</span>',
-                '<span style="color: #f12e2e;">A MERN Stack Developer</span>',
+                '<span style="color: #4146A5;">A Full Stack Developer</span>',
+                // '<span style="color: #f12e2e;"> Developer</span>',
               ],
               autoStart: true,
               loop: true,
