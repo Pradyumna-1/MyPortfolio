@@ -58,7 +58,7 @@ nav {
     // margin: 10px;
     cursor: pointer;
     color: $color3;
-    letter-spacing: 1px;
+    letter-spacing: 1px;  
     font-weight: 500;
     transition: all 0.3s;
     &:hover {
@@ -76,8 +76,8 @@ nav {
     font-size: 1.2rem;
   z-index: 150;
   position: fixed;
-  top: 2rem;
-  right: 2rem;
+  top: 1.2rem;
+  right: 3rem;
   display: none;
 
   &:hover {
