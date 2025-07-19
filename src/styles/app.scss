@@ -57,11 +57,20 @@
 @import "mediaquery";
 
 * {
-margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     font-family: $text2;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;    
+  position: static;
 }
 a {
 text-decoration: none;
@@ -70,6 +79,7 @@ text-decoration: none;
 body {
 background-color: $color1;
     overflow-x: hidden;
+    position: static;
 }
 
 .disableBtn {
@@ -80,7 +90,7 @@ color: $color6 !important;
 
 #customMessage {
 font: 900 2rem $text2;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: grid;
     place-items: center;

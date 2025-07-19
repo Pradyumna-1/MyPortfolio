@@ -71,12 +71,19 @@ export const skills = [
                     "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
             },
 
+            // {
+            //     name: "Spring",
+            //     image:
+            //         "https://icon.icepanel.io/Technology/svg/Spring.svg",
+            // },
             {
-                name: "Spring",
-                image:
-                    "https://icon.icepanel.io/Technology/svg/Spring.svg",
-            },
-
+                name:"Spring Boot"
+                ,image:"https://img.icons8.com/?size=100&id=A3Ulk2RcONKs&format=png&color=000000"
+            }
+            ,{
+                name:"PHP",
+                image:"https://icon.icepanel.io/Technology/svg/PHP.svg"
+            }
         ],
     },
 
@@ -509,7 +516,7 @@ export const projects = [
         description:
             " The travel tour web application is made using HTML, CSS, JavaScript, PHP MyAdmin and PHP",
         image:
-            'https://static.blog.bolt.eu/LIVE/wp-content/uploads/2022/08/30134327/Solo-travel-1024x536.jpg',
+'https://github.com/Pradyumna-1/travel-tour/blob/main/images/about-img.jpg?raw=true',
         tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         category: "full stack project",
         github: "https://github.com/Pradyumna-1/travel-tour",

@@ -59,6 +59,8 @@ const Home = () => {
               strings: [
                 '<span style="color: #4146A5; font-weight:700"> <span style="color: #be123c;">A Full Stack</span> Developer</span>',
                 '<span style="color:#1871cf; font-weight:700"> A Java Full Stack <span style="color: #be123c;">Developer</span></span>',
+                '<span style="color: #4146A5; font-weight:700"> <span style="color: #be123c;">A MERN Stack</span> Developer</span>',
+
               ],
               autoStart: true,
               loop: true,

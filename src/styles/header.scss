@@ -1,56 +1,66 @@
+* {
 
-nav {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 100vw;
-    height: 60px;
-    //  background-color: $color6;
-      // position: fixed;
-      // color: $color6_1;
-    
+}
 
-    
-   
+nav {
+
+  width: 100vw;
+  height: 60px;
+  //  background-color: $color6;
+  position: fixed;
+  // color: $color6_1;
+
+  width: 100%;
+  max-width: 100vw;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // padding: 0 $p;
+  top: 0%;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+
+
+  body.light & {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  body.dark & {
+    background-color: rgba(20, 20, 20, 0.8);
+  }
+
+  >h2 {
+    font-size: 2rem;
+    margin: 10px;
+    color: $color5;
+  }
+
+  >div {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    // padding: 0 $p;
-    position: sticky;
-    top: 0%;
-    z-index: 1000;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
+    gap: 2rem;
 
-
-    body.light & {
-      background-color: rgba(255, 255, 255, 0.8);
-    }
-
-    body.dark & {
-      background-color: rgba(20, 20, 20, 0.8);
-    }
-  >h2 {
-      font-size: 2rem;
-      margin: 10px;
-      color: $color5;
-    }
-    >div {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
     a {
-        // color: $color1;
-        font-weight: 500;
-        transition: all 0.3s;
-        letter-spacing: 1px;
+      // color: $color1;
+      font-weight: 500;
+      transition: all 0.3s;
+      letter-spacing: 1px;
+
       &:hover {
-          color: $color3;
-        }
+        color: $color3;
       }
-      }
-  > a > button {
+    }
+  }
+
+  >a>button {
     border: 1px solid $color3;
     border-radius: 2rem;
     padding: 0.5rem 2rem;
@@ -58,22 +68,24 @@ nav {
     // margin: 10px;
     cursor: pointer;
     color: $color3;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
     font-weight: 500;
     transition: all 0.3s;
+
     &:hover {
       background-color: $color3;
       color: $color4;
     }
   }
 }
+
 .navBtn {
   width: 40px;
   height: 10px;
   border: none;
   background-color: transparent;
   // color: $color1;
-    font-size: 1.2rem;
+  font-size: 1.2rem;
   z-index: 150;
   position: fixed;
   top: 1.2rem;
@@ -84,62 +96,65 @@ nav {
     color: $color3;
   }
 }
+
 .navPhone {
   transition: all 0.5s;
-    transform: translateY(-200%);
-    width: 100%;
-    height: 100vh;
-    background-color: $color5_1;
-    padding: $p_base;
-    position: fixed;
-    top: 0;
-    z-index: 100;
+  transform: translateY(-200%);
+  width: 100%;
+  height: 100vh;
+  background-color: $color5_1; 
+  padding: $p_base;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  
+
+  >h2 {
+    font-size: 2rem;
+    color: $color4;
+  }
+
+  >div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 3rem;
-  
-    >h2 {
-      font-size: 2rem;
+    gap: 2rem;
+
+    a {
       color: $color4;
-    }
-  
-    >div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 2rem;
-  
-      a {
-        color: $color4;
-        letter-spacing: 1px;
-        font-weight: 500;
-        transition: all 0.3s;
-  
-        &:hover {
-          color: $color3;
-        }
-      }
-    }
-  
-    >a>button {
-      border: 1px solid $color6_1;
-      padding: 0.5rem 2rem;
-      background-color: $color1;
-      cursor: pointer;
-      color: $color6;
       letter-spacing: 1px;
       font-weight: 500;
-      transition: 0.5s;
-  
+      transition: all 0.3s;
+
       &:hover {
-        background-color: $color6;
-        color: $color4;
+        color: $color3;
       }
     }
   }
-  
-  .navPhoneComes {
-    transform: translateY(0);
+
+  >a>button {
+    border: 1px solid $color6_1;
+    border-radius: 6px;
+    padding: 0.5rem 2rem;
+    background-color: $color7;
+    cursor: pointer;
+    color: $color1;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.5s;
+
+    &:hover {
+      background-color: $color6;
+      color: $color4;
+    }
   }
+}
+
+.navPhoneComes {
+  transform: translateY(0);
+}

@@ -38,13 +38,16 @@ const ColorModeSwitcher = (props) => {
         variant="ghost"
         color="none"
         pos={"fixed"}
-        top={"2"}
-        right={"6"}
+        top={"3"}
+        right={"4"}
         zIndex={"overlay"}
         onClick={toggleColorMode}
         icon={<SwitchIcon />}
         {...props}
+
+
       />
+
       <style jsx global>
         {`
           body {
