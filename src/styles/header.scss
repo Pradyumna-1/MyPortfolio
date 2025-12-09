@@ -22,6 +22,8 @@ nav {
   justify-content: space-between;
   // padding: 0 $p;
   top: 0%;
+  margin-bottom: 20px;
+
   z-index: 1000;
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -91,6 +93,7 @@ nav {
   top: 1.2rem;
   right: 3rem;
   display: none;
+  
 
   &:hover {
     color: $color3;
@@ -100,7 +103,7 @@ nav {
 .navPhone {
   transition: all 0.5s;
   transform: translateY(-200%);
-  width: 100%;
+  width: 100;
   height: 100vh;
   background-color: $color5_1; 
   padding: $p_base;
@@ -118,6 +121,7 @@ nav {
     font-size: 2rem;
     color: $color4;
   }
+  
 
   >div {
     display: flex;

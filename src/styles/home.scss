@@ -3,7 +3,11 @@
     height: 90vh;
     display: flex;
     //without margin buttom also it will work
-        margin-bottom: 80px;
+    margin-bottom: 80px;
+    // margin-top: 40px;
+
+
+
     >section {
         width: 100%;
 
@@ -39,7 +43,7 @@
                             color: $color3;
                             padding: 1rem 2.5rem;
                             transition: all 0.3s;
-                           font-weight: 600;
+                            font-weight: 600;
                             border-radius: 2rem;
                             // padding: 10px 30px;
                             padding: 0.6rem 1.8rem;
@@ -63,24 +67,25 @@
 
                 aside {
                     display: flex;
-              
-                    width: 70%;
-                    >a {
-                            margin: 5px;
-                            display: flex;
 
-                    
-                        }
-                    
-                        >.linkedin-link {
-                            color: #0077B5;
-                          
-                        }
-                    
-                        >.twitter-link {
-                            color: #c9cfd1;
-                        
-                        }
+                    width: 70%;
+
+                    >a {
+                        margin: 5px;
+                        display: flex;
+
+
+                    }
+
+                    >.linkedin-link {
+                        color: #0077B5;
+
+                    }
+
+                    >.twitter-link {
+                        color: #c9cfd1;
+
+                    }
                 }
 
                 article {
@@ -154,6 +159,7 @@
         animation: animateSvg 0.7s infinite linear alternate;
     }
 }
+
 // animation
 
 
