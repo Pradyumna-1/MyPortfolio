@@ -25,8 +25,7 @@ const About = () => {
           alt="Pradyumna Kumar Naik"
           data-aos="fade-up-right"
         />
-        <p data-aos="fade-left" >
-    
+        <p data-aos="fade-left">
           Hi, I'm Pradyumna, currently working as a Software Engineer at
           Signavox Technologies. As a Full Stack Developer, I've gained hands-on
           experience building both the frontend and backend of web applications.
@@ -37,6 +36,16 @@ const About = () => {
           teams, and contributing to projects that make a real impact. I'm
           driven to apply my skills in development and quality assurance to
           build meaningful, reliable solutions.
+          {/* Hi,  I’m Pradyumna, a Software Engineer at Signavox Technologies. As a
+          Full Stack Developer, I have hands-on experience building both
+          frontend and backend components of web applications. I enjoy creating
+          smooth, user-friendly interfaces while working on the backend to
+          ensure systems are efficient and reliable. I focus on writing clean,
+          maintainable code and delivering high-quality software. I am
+          passionate about problem-solving, collaborating with skilled teams,
+          and contributing to projects that create real impact. I am motivated
+          to apply my development and quality assurance skills to build
+          meaningful and reliable solutions. */}
         </p>
         <a href={Resume} download className="btn" data-aos="fade-up">
           Download CV

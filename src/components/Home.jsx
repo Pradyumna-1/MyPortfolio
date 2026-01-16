@@ -52,7 +52,7 @@ const Home = () => {
         <div>
           <motion.h1 {...animations.h1}>
             Hi, I Am <br />
-            <span> Pradyumna </span>
+            Pradyumna Kumar Naik
           </motion.h1>
           <Typewriter
             options={{

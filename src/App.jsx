@@ -10,6 +10,7 @@ import { Toaster } from "react-hot-toast";
 import { Route, Routes, useLocation, Navigate } from "react-router-dom";
 import Loader from "./components/Loader/Loader";
 import Projects from "./components/ProjectDetails";
+import ProjectsSection from "./components/Projects/ProjectSection";
 
 
 const LazyHome = React.lazy(() => import("./components/Home"));
@@ -55,8 +56,9 @@ function App() {
             <Home />
             <About />
             {/* <Work /> */}
-            <Projects  openModal={openModal} setOpenModal={setOpenModal} />
+            {/* <Projects  openModal={openModal} setOpenModal={setOpenModal} /> */}
             {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
+            <ProjectsSection/>
             <Skills />
             <Contact />
             <Footer />

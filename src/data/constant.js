@@ -386,7 +386,7 @@ export const education = [
         degree: "BSE(X), General & Social Science",
     },
     {
-        id: 4,
+        id: 5,
         img: "https://sriaurobindoschool.com/wp-content/uploads/2022/04/sri-aurobindo-integral-education-bhubaneswar-1.png",
         school: "Sri Aurobindo Integral Education Centre, Odisha",
         date: "April 2004 - March 2015",
