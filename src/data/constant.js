@@ -106,7 +106,7 @@ export const skills = [
 
             {
                 name: "SQL Server",
-                image: "https://seeklogo.com/images/A/azure-sql-managed-instance-logo-D33A77DD5E-seeklogo.com.png",
+                image:"https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000"
             },
 
             {
@@ -402,7 +402,7 @@ export const projects = [
     {
         id: 1,
         title: "SMS Services - Sada Mee Sevalo",
-        date: "March 2025 - Present",
+        date: "March 2025 - April 2025",
         description: "SMS Services - Sada Mee Sevalo is a multi-service booking platform built with React, Node.js, Firebase, and Tailwind CSS, allowing users to request services like banking, legal, and medical from home. As team lead, I oversaw development, ensured smooth functionality, and implemented real-time data handling for efficient service delivery."
         , image: "https://i.imghippo.com/files/cS1212Lw.png",
         tags: ["JavaScript"," React+Vite","Firebase"," Google Auth","Tailwind CSS","NodeJS", "ExpressJS"],

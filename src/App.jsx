@@ -1,7 +1,7 @@
 import React, { useEffect, useState, Suspense } from "react";
 import Header, { HeaderPhone } from "./components/Header";
 import Home from "./components/Home";
-import Work from "./components/Work";
+// import Work from "./components/Work";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -9,7 +9,6 @@ import About from "./components/About";
 import { Toaster } from "react-hot-toast";
 import { Route, Routes, useLocation, Navigate } from "react-router-dom";
 import Loader from "./components/Loader/Loader";
-import Projects from "./components/ProjectDetails";
 import ProjectsSection from "./components/Projects/ProjectSection";
 
 
@@ -56,8 +55,6 @@ function App() {
             <Home />
             <About />
             {/* <Work /> */}
-            {/* <Projects  openModal={openModal} setOpenModal={setOpenModal} /> */}
-            {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
             <ProjectsSection/>
             <Skills />
             <Contact />

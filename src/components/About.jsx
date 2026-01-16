@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import myImage from "../assets/about.jpg";
+// import Resume from "../assets/Resume.pdf";
 import Resume from "../assets/Resume.pdf";
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -16,6 +18,7 @@ const About = () => {
     AOS.refresh();
   }, []);
 
+  const resume="https://www.linkedin.com/in/pradyumnakumarnaik/overlay/1759397109055/single-media-viewer/?profileId=ACoAADuT730BJuy0aTw4X7am5gcQqLQGo7jmQIY";
   return (
     <div id="about" data-aos="fade-up">
       <h2>About Me</h2>
@@ -47,7 +50,7 @@ const About = () => {
           to apply my development and quality assurance skills to build
           meaningful and reliable solutions. */}
         </p>
-        <a href={Resume} download className="btn" data-aos="fade-up">
+        <a href={resume} target="_blank" download className="btn" data-aos="fade-up">
           Download CV
         </a>
       </div>
