@@ -22,7 +22,7 @@ Hosted on Vercel: The portfolio is deployed and accessible online via Vercel for
 
 # Technologies Used
 
-Frontend: React.js, React Router, SCSS
+Frontend: React.js, React Router, scss
 
 Backend: Firebase
 
