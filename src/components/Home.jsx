@@ -7,6 +7,7 @@ import {
   BsArrowUpRight,
   BsChevronDown,
   BsTwitch,
+  BsTwitter,
   BsTwitterX,
 } from "react-icons/bs";
 import me from "../assets/logo2.jpg";
@@ -81,7 +82,7 @@ const Home = () => {
               rel="noopener noreferrer"
               aria-label="GitHub"
             >
-              <FaGithub size={32} />
+              <FaGithub size={36} />
             </a>
 
             <a
@@ -92,7 +93,7 @@ const Home = () => {
               // style={{  color: '#0077B5' }}
               className="linkedin-link"
             >
-              <FaLinkedin size={32} />
+              <FaLinkedin size={36} />
             </a>
             <a
               href="https://twitter.com/Pradyumna_19"
@@ -101,7 +102,8 @@ const Home = () => {
               aria-label="Twitter"
               className="twitter-link"
             >
-              <BsTwitterX size={32} />
+              {/* <BsTwitterX size={32} /> */}
+              <FaTwitter size={36}/>
             </a>
             {/* <article data-special>
               <span></span>

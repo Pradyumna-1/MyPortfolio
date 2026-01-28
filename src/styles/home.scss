@@ -3,8 +3,8 @@
     height: 90vh;
     display: flex;
     //without margin buttom also it will work
-    margin-bottom: 80px;
-    // margin-top: 40px;
+    // margin-bottom: 80px;
+    margin-top: 60px;
 
 
 
@@ -17,7 +17,7 @@
             >div {
                 border-top: 1px solid $color6_2;
                 height: 100%;
-                padding-top: 6rem;
+                padding-top: 5rem;
 
                 >h1 {
                     font: 900 3.5rem $text1;
@@ -83,7 +83,7 @@
                     }
 
                     >.twitter-link {
-                        color: #c9cfd1;
+                        color: #1DA1F2;
 
                     }
                 }

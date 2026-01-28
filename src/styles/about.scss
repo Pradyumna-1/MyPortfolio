@@ -4,11 +4,10 @@
   scroll-behavior: smooth;
 
   h2 {
-    font-size: 2.6rem;
-    font-weight: 700;
-    width: fit-content;
-    margin: 0 auto 5rem;
-    border-bottom: 2px solid $color6_1;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
     padding-bottom: 0.6rem;
   }
 
@@ -43,7 +42,7 @@
     padding: 0.8rem 1.9rem;
     border-radius: 0.65rem;
     font-weight: 500;
-    transition: all 0.25s ease;
+    transition: background 0.25s ease, transform 0.25s ease;
 
     &:hover {
       background: #084298;
@@ -80,6 +79,12 @@
     object-fit: cover;
     border-radius: 0.4rem;
     box-shadow: 0 28px 65px rgba(0, 0, 0, 0.22);
+
+    /* animation */
+    opacity: 0;
+    transform: translateY(18px);
+    animation: aboutImageReveal 0.9s ease forwards;
+    animation-delay: 0.3s;
   }
 
   /* =====================================================
@@ -106,6 +111,11 @@
       width: 60px;
       height: 3px;
       background: #111827;
+
+      transform: scaleX(0);
+      transform-origin: left;
+      animation: titleLineDraw 0.9s ease forwards;
+      animation-delay: 0.2s;
     }
   }
 
@@ -128,6 +138,12 @@
       bottom: 0;
       width: 2px;
       background: #9ca3af;
+
+      /* line draw animation */
+      transform: scaleY(0);
+      transform-origin: top;
+      animation: timelineGrow 1.2s ease forwards;
+      animation-delay: 0.4s;
     }
   }
 
@@ -138,6 +154,15 @@
     grid-template-columns: 120px 40px 1fr;
     column-gap: 20px;
     align-items: flex-start;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: itemReveal 0.7s ease forwards;
+
+    &:nth-child(1) { animation-delay: 0.6s; }
+    &:nth-child(2) { animation-delay: 0.75s; }
+    &:nth-child(3) { animation-delay: 0.9s; }
+    &:nth-child(4) { animation-delay: 1.05s; }
   }
 
   /* DATE */
@@ -209,7 +234,7 @@
     }
 
     .about__left::before {
-    display:none
+      display: none;
     }
 
     .about__left img {
@@ -289,5 +314,35 @@
         color: #9ca3af;
       }
     }
+  }
+}
+
+/* =====================================================
+    KEYFRAMES
+===================================================== */
+
+@keyframes timelineGrow {
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes itemReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes aboutImageReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes titleLineDraw {
+  to {
+    transform: scaleX(1);
   }
 }
