@@ -280,8 +280,8 @@ const About = () => {
               <h4>Web Developer</h4>
               <p className="company">Bharat Intern</p>
               <p>
-                Worked as a Web developer using tech stack HTML,CSS,JS, and
-                ReactJS.learned how to work colaboratively with team.
+                Worked as a Web developer using tech stack HTML,CSS, JS, and
+                React.jS.learned how to work colaboratively with team.
               </p>
             </div>
           </div>
