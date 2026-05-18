@@ -1,5 +1,6 @@
 // import {tailwind} from "../assets/tailwind-css.svg"
 import notesmanagement from "../assets/notes-management-project.png"
+import perfectpixel from "../assets/perfect-pixel.png"
 export const skills = [
     {
         title: "Frontend",
@@ -401,94 +402,117 @@ export const education = [
 export const projects = [
     {
         id: 1,
+        title: "Quick Dine",
+        date: "April 2026 - Present",
+        description: "SmartDine is a production-style MERN stack application that enables restaurants to manage table-based ordering through QR codes, real-time inventory updates, kitchen dashboards, and secure payment workflows. The system is designed to simulate a real-world POS platform with Admin and Chef roles, atomic inventory handling, and scalable backend architecture.",
+        image: "https://cdn.prod.website-files.com/688d3a84114bb08733192a12/68a90526ab02745e3b3b90fd_toast%20pos%20vs%20lightspeed%20resturant-p-1600.jpg",
+        tags: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+        category: "full stack project",
+        github: "https://github.com/Pradyumna-1/QR-based-Resturant-Ordering-and-Management-System",
+        // webapp: "https://student-management-system-lac-five.vercel.app/",
+    },
+
+    {
+        id: 2,
+        title: "Perfect Pixel",
+        date: "April 2026 - May 2026",
+        description: "Perfect Pixel is a full stack web application created to provide a smooth and responsive platform for managing digital content efficiently. It is built using React.js, Node.js, Express.js, and MongoDB with a focus on scalability, secure data handling, and seamless user experience.",
+        image: perfectpixel,
+        tags: ["React.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "REST APIs", "Cloudinary"],
+        category: "full stack project",
+        github: "https://github.com/Pradyumna-1/perfect-pixel",
+        webapp: "https://perfect-pixel-photography.vercel.app/",
+    },
+
+    {
+        id: 3,
+        title: "Student Management System",
+        date: "April 2026 - April 2026",
+        description: "A full-stack MERN application to manage students and assign tasks. This project demonstrates authentication, CRUD operations, and deployment using modern web technologies.",
+        image: "https://www.sourcecodester.com/sites/default/files/images/mayuri_k/dashboard_7.jpg",
+        tags: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs", "Cloudinary"],
+        category: "full stack project",
+        github: "https://github.com/Pradyumna-1/student-management-system",
+        webapp: "https://student-management-system-lac-five.vercel.app/",
+    },
+
+    {
+        id: 4,
         title: "SMS Services - Sada Mee Sevalo",
         date: "March 2025 - April 2025",
-        description: "SMS Services - Sada Mee Sevalo is a multi-service booking platform built with React, Node.js, Firebase, and Tailwind CSS, allowing users to request services like banking, legal, and medical from home. As team lead, I oversaw development, ensured smooth functionality, and implemented real-time data handling for efficient service delivery."
-        , image: "https://i.imghippo.com/files/cS1212Lw.png",
-        tags: ["JavaScript"," React+Vite","Firebase"," Google Auth","Tailwind CSS","NodeJS", "ExpressJS"],
+        description: "SMS Services - Sada Mee Sevalo is a multi-service booking platform built with React, Node.js, Firebase, and Tailwind CSS, allowing users to request services like banking, legal, and medical from home. As team lead, I oversaw development, ensured smooth functionality, and implemented real-time data handling for efficient service delivery.",
+        image: "https://i.imghippo.com/files/cS1212Lw.png",
+        tags: ["JavaScript", "React+Vite", "Firebase", "Google Auth", "Tailwind CSS", "NodeJS", "ExpressJS"],
         category: "full stack project",
         github: "https://github.com/Pradyumna-1/gts-sms-project",
-
         webapp: "https://gts-sms--rose.vercel.app/",
     },
+
     {
-        id: 11,
+        id: 5,
         title: "Notes Management System",
         date: "February 2023 - March 2023",
-        description:
-            "Medinova is a comprehensive software solution that allows patients to conveniently book appointments with doctors for medical checkup.In this software, patients can easily register, browse doctors based on their specialization, and book appointments online. The system sends notifications and reminders to ensure patients don't miss their scheduled checkups. During the visit, doctors can access patient records, perform examinations, and provide prescriptions, ensuring efficient healthcare delivery.",
+        description: "Medinova is a comprehensive software solution that allows patients to conveniently book appointments with doctors for medical checkups. Patients can register, browse doctors by specialization, and book appointments online. The system also sends notifications and reminders for appointments.",
         image: notesmanagement,
-        tags: ["HTML", "CSS", "JavaScript", "Reacctjs", "Redux", "Tailwind CSS"],
+        tags: ["HTML", "CSS", "JavaScript", "Reactjs", "Redux", "Tailwind CSS"],
         category: "frontend project",
         github: "https://github.com/Pradyumna-1/notes",
         webapp: "https://sidnotes.vercel.app/",
     },
+
     {
-        id: 10,
+        id: 6,
         title: "Online Exam Portal",
         date: "July 2023 - August 2023",
         description: "Developed a secure Online Exam Portal using Java, Spring Boot, ReactJS, and MySQL with features like admin-led exam creation, real-time monitoring, auto result generation, and a categorized question bank.",
-        image:
-            "https://cdn.dribbble.com/users/1237425/screenshots/6296599/contacts.png",
+        image: "https://cdn.dribbble.com/users/1237425/screenshots/6296599/contacts.png",
         tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "MySQL", "Java", "SpringBoot", "Postman"],
         category: "full stack project",
         github: "https://github.com/Pradyumna-1/Online-Exam-Portal",
-        //   webapp: "https://github.com/Pradyumna-1/Online-Exam-Portal",
     },
+
     {
-        id: 12,
+        id: 7,
         title: "MOVIX",
         date: "May 2023 - June 2023",
-        description:
-            'An interactive movie review web app enabling users to search for movies, view reviews, and watch trailers, built with HTML, CSS, Tailwind, JavaScript, ReactJS, and the IMDb API.',
-        image:
-            'https://cdn.dribbble.com/userupload/4058178/file/original-32375ad0f4d0d27bbb5a236c95a90916.jpg?resize=1600x1200',
-
-        tags: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "Material UI", "REST API's"],
+        description: "An interactive movie review web app enabling users to search for movies, view reviews, and watch trailers, built with HTML, CSS, Tailwind, JavaScript, ReactJS, and the IMDb API.",
+        image: "https://cdn.dribbble.com/userupload/4058178/file/original-32375ad0f4d0d27bbb5a236c95a90916.jpg?resize=1600x1200",
+        tags: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "Material UI", "REST APIs"],
         category: "frontend project",
         github: "https://github.com/Pradyumna-1/MoviX",
         webapp: "https://moviex-mocha.vercel.app/",
     },
 
- 
-
     {
-        id: 9,
+        id: 8,
         title: "E-commerce Shopping App",
         date: "June 2023 - July 2023",
-        description:
-            'The EM system with React.js, featuring role-based access, authentication, and a responsive UI using Tailwind CSS. Optimized task filtering for better performance.',
-        image:
-            "https://github.com/Pradyumna-1/Ecart/raw/31506f7a949af783daf5e8a1bb1868ee5af642e5/photo.png",
-        tags: ["HTML", "CSS", "React", "Tailwind CSS", "Material UI,", "REST APIs"],
+        description: "The EM system with React.js, featuring role-based access, authentication, and a responsive UI using Tailwind CSS. Optimized task filtering for better performance.",
+        image: "https://github.com/Pradyumna-1/Ecart/raw/31506f7a949af783daf5e8a1bb1868ee5af642e5/photo.png",
+        tags: ["HTML", "CSS", "React", "Tailwind CSS", "Material UI", "REST APIs"],
         category: "frontend project",
         github: "https://github.com/Pradyumna-1/Ecart",
         webapp: "https://ecart-nine-psi.vercel.app/",
     },
 
     {
-        id: 8,
+        id: 9,
         title: "WEATHER APP",
         date: "April 2022 - May 2022",
-        description:
-            'Developed a fully functional weather application using HTML, CSS, JavaScript, React.js, and API integration, providing real-time weather data and an intuitive user interface.',
-        image:
-            'https://cdn.dribbble.com/userupload/4004842/file/original-51a2122f099b9fec7a9f5d7e8f19ccd7.jpg?resize=1024x768',
-        tags: ["HTML", "CSS", "JavaScript", "React.js", "REST API's"],
+        description: "Developed a fully functional weather application using HTML, CSS, JavaScript, React.js, and API integration, providing real-time weather data and an intuitive user interface.",
+        image: "https://cdn.dribbble.com/userupload/4004842/file/original-51a2122f099b9fec7a9f5d7e8f19ccd7.jpg?resize=1024x768",
+        tags: ["HTML", "CSS", "JavaScript", "React.js", "REST APIs"],
         category: "frontend project",
         github: "https://github.com/Pradyumna-1/WeatherApp",
         webapp: "https://weather-app-pradyumna-1.vercel.app/",
     },
 
     {
-        id: 7,
+        id: 10,
         title: "Employee Management System",
         date: "August 2022 - September 2022",
-        description: 'The EM system with React.js, featuring role-based access, authentication, and a responsive UI using Tailwind CSS. Optimized task filtering for better performance.',
-
-
-        image:
-            "https://github.com/Pradyumna-1/ems/blob/main/Screenshot%20(899).png?raw=true",
+        description: "The EM system with React.js, featuring role-based access, authentication, and a responsive UI using Tailwind CSS. Optimized task filtering for better performance.",
+        image: "https://github.com/Pradyumna-1/ems/blob/main/Screenshot%20(899).png?raw=true",
         tags: ["HTML", "CSS", "JavaScript", "React.js"],
         category: "frontend project",
         github: "https://github.com/Pradyumna-1/ems",
@@ -496,13 +520,11 @@ export const projects = [
     },
 
     {
-        id: 6,
+        id: 11,
         title: "TODO APP",
         date: "June 2022 - July 2022",
-        description:
-            'Designed and developed a fully functional Todo application using HTML, CSS, JavaScript, React.js, and local storage, enabling users to efficiently manage tasks with an intuitive interface and persistent data storage.',
-        image:
-            'https://cdn.dribbble.com/users/551602/screenshots/14153121/media/b88a82824f496847d76fc3f04b205b1f.png?resize=768x576&vertical=center',
+        description: "Designed and developed a fully functional Todo application using HTML, CSS, JavaScript, React.js, and local storage, enabling users to efficiently manage tasks with persistent data storage.",
+        image: "https://cdn.dribbble.com/users/551602/screenshots/14153121/media/b88a82824f496847d76fc3f04b205b1f.png?resize=768x576&vertical=center",
         tags: ["HTML", "CSS", "JavaScript", "React.js"],
         category: "frontend project",
         github: "https://github.com/Pradyumna-1/ToDoList",
@@ -510,62 +532,60 @@ export const projects = [
     },
 
     {
-        id: 5,
+        id: 12,
         title: "Travel Tour",
         date: "December 2022 - January 2023",
-        description:
-            " The travel tour web application is made using HTML, CSS, JavaScript, PHP MyAdmin and PHP",
-        image:
-'https://github.com/Pradyumna-1/travel-tour/blob/main/images/about-img.jpg?raw=true',
+        description: "The travel tour web application is made using HTML, CSS, JavaScript, PHP, MySQL, and PHPMyAdmin.",
+        image: "https://github.com/Pradyumna-1/travel-tour/blob/main/images/about-img.jpg?raw=true",
         tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         category: "full stack project",
         github: "https://github.com/Pradyumna-1/travel-tour",
-        //   webapp: "https://flux-org.netlify.app/",
     },
 
-
-
     {
-        id: 4,
+        id: 13,
         title: "E-Commerce Sales Chatbot",
         date: "December 2024 - December 2024",
-        description:
-            'The project builds an E-commerce Sales Chatbot with ReactJS, HTML, CSS, and Flask, enabling users to search and explore products interactively.',
-        image:
-            "https://github.com/Pradyumna-1/chatBot/blob/main/image.png?raw=true",
-        tags: ["Materila UI", "Flask", "Python", "React.js"],
+        description: "The project builds an E-commerce Sales Chatbot with ReactJS, HTML, CSS, and Flask, enabling users to search and explore products interactively.",
+        image: "https://github.com/Pradyumna-1/chatBot/blob/main/image.png?raw=true",
+        tags: ["Material UI", "Flask", "Python", "React.js"],
         category: "full stack project",
-        github: 'https://github.com/Pradyumna-1/chatBot',
-        //   webapp: "https://github.com/guruprasad9610/Movie_App_Ionic",
+        github: "https://github.com/Pradyumna-1/chatBot",
     },
 
-
     {
-        id: 3,
+        id: 14,
         title: "Mera Khata",
         date: "August 2023 - September 2023",
-        description:
-            "Mera Khata Software is a versatile and user-friendly application designed to simplify and streamline the process of managing employees within your organization. Whether you are a small business owner or part of a larger enterprise, this software offers a comprehensive set of features to help you efficiently manage your workforce.",
-        image:
-            "https://cdn.dribbble.com/users/1726280/screenshots/12579027/media/a0f18d9edca0aa081c4bfd6970b5d549.jpg?resize=1000x750&vertical=center",
+        description: "Mera Khata Software is a user-friendly application designed to simplify employee management for organizations with features for workforce management and operational efficiency.",
+        image: "https://cdn.dribbble.com/users/1726280/screenshots/12579027/media/a0f18d9edca0aa081c4bfd6970b5d549.jpg?resize=1000x750&vertical=center",
         tags: ["JavaScript", "Ejs", "Node.js", "MongoDB", "Express.js"],
         category: "backend project",
         github: "https://github.com/Pradyumna-1/mera-khata",
-
     },
+
     {
-        id: 2,
+        id: 15,
         title: "CRUD APP",
         date: "August 2023 - September 2023",
-        description: "In this Crud app user can register by using email,name,password,city and later he/she can delete update or add ",
+        description: "In this CRUD app, users can register using email, name, password, and city, and later update, delete, or add records.",
         image: "https://www.atatus.com/glossary/content/images/size/w1140/2021/07/CRUD.jpeg",
-        tags: ["Java", "MySQL", "JDBC", "servlet"],
+        tags: ["Java", "MySQL", "JDBC", "Servlet"],
         category: "backend project",
         github: "https://github.com/Pradyumna-1/CrudforUser",
-
     },
 
-
+    {
+        id: 16,
+        title: "Finance Dashboard",
+        date: "March 2026 - March 2026",
+        description: "A modern, responsive Finance Dashboard built using React, Tailwind CSS, and Chart.js to track income, expenses, and overall financial health with interactive visualizations.",
+        image: "https://other-levels.com/cdn/shop/files/Personal-Finance-Excel-Template-_-Advanced-Budgeting-Tool-Other-Levels-17250418.png?v=1759939100&width=416",
+        tags: ["React.js", "Tailwind CSS"],
+        category: "frontend project",
+        github: "https://github.com/Pradyumna-1/Finance-Dashboard",
+        webapp: "https://finance-dashboard-henna-two.vercel.app/",
+    },
 ];
 
 //   // DEV-JOURNEY TIMELINE
