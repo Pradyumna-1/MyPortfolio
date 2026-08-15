@@ -1,34 +1,44 @@
-
 import React, { useState } from "react";
 import vg from "../assets/vg.png";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
-import { addDoc, collection } from "firebase/firestore";
-import { db } from "../firebase";
+import emailjs from "@emailjs/browser";
+
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [honeypot, setHoneypot] = useState("");
   const [disableBtn, setDisableBtn] = useState(false);
 
   const submitHandler = async (e) => {
     e.preventDefault();
+
+    // Bot check - if this hidden field got filled, silently drop it
+    if (honeypot) {
+      return;
+    }
+
     setDisableBtn(true);
     try {
-      await addDoc(collection(db, "contacts"), {
-        name,
-        email,
-        message,
-      });
+      await emailjs.send(
+        SERVICE_ID,
+        TEMPLATE_ID,
+        { name, email, message },
+        PUBLIC_KEY
+      );
+      toast.success("Message Sent");
       setName("");
       setEmail("");
       setMessage("");
-      toast.success("Message Sent");
-      setDisableBtn(false);
     } catch (error) {
-      toast.error("Error");
-      console.log(error);
+      toast.error("Error sending message");
+      console.log("EmailJS error:", error);
+    } finally {
       setDisableBtn(false);
     }
   };
@@ -59,6 +69,7 @@ const Contact = () => {
       },
     },
   };
+
   return (
     <div id="contact">
       <section>
@@ -86,13 +97,30 @@ const Contact = () => {
             onChange={(e) => setMessage(e.target.value)}
           />
 
+          {/* Honeypot field - hidden from real users, bots fill it automatically */}
+          <input
+            type="text"
+            name="company"
+            value={honeypot}
+            onChange={(e) => setHoneypot(e.target.value)}
+            style={{
+              position: "absolute",
+              left: "-9999px",
+              width: "1px",
+              height: "1px",
+              opacity: 0,
+            }}
+            tabIndex="-1"
+            autoComplete="off"
+          />
+
           <motion.button
             disabled={disableBtn}
             className={disableBtn ? "disableBtn" : ""}
             {...animations.button}
             type="submit"
           >
-            Send
+            {disableBtn ? "Sending..." : "Send"}
           </motion.button>
         </motion.form>
       </section>

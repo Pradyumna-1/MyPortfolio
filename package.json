@@ -10,14 +10,16 @@
     "preview": "vite preview"
   },
   "engines": {
-  "node": "24.x"
-}
-,
+    "node": "24.x"
+  },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
+    "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "aos": "^2.3.4",
+    "dotenv": "^17.4.2",
+    "emailjs": "^5.0.2",
     "firebase": "^10.7.1",
     "framer-motion": "^10.16.16",
     "lottie-react": "^2.4.0",
