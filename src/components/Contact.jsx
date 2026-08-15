@@ -17,9 +17,12 @@ const Contact = () => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
+    console.log("submitHandler fired");
+    console.log("honeypot value:", JSON.stringify(honeypot));
 
     // Bot check - if this hidden field got filled, silently drop it
     if (honeypot) {
+      console.log("Blocked by honeypot check! Value was:", honeypot);
       return;
     }
 
@@ -36,8 +39,8 @@ const Contact = () => {
       setEmail("");
       setMessage("");
     } catch (error) {
+
       toast.error("Error sending message");
-      console.log("EmailJS error:", error);
     } finally {
       setDisableBtn(false);
     }
@@ -100,7 +103,8 @@ const Contact = () => {
           {/* Honeypot field - hidden from real users, bots fill it automatically */}
           <input
             type="text"
-            name="company"
+            name="hp_field_xyz"
+            id="hp_field_xyz"
             value={honeypot}
             onChange={(e) => setHoneypot(e.target.value)}
             style={{
@@ -111,7 +115,7 @@ const Contact = () => {
               opacity: 0,
             }}
             tabIndex="-1"
-            autoComplete="off"
+            autoComplete="new-password"
           />
 
           <motion.button
